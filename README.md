@@ -41,9 +41,10 @@ cd cis2336-summer-2026-demo
 ```
 Then open it in VS Code:
 
-```bash
-code .
-```
+1. Open VS Code.
+2. Select File → Open Folder.
+3. Open the cis2336-summer2026-demo folder.
+
 ## How to Get Weekly Updates
 
 Before each class, open the terminal inside the project folder and run:
