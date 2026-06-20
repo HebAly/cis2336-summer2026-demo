@@ -1,3 +1,16 @@
 /* CIS 2336 CSS Demo File */
 
 /* Add your CSS here during class */
+
+ol{
+    color: blueviolet;
+}
+ul{
+  color: cadetblue;  
+}
+nav {
+    background-color: burlywood;
+}
+h1{
+    color: aqua;
+}
