@@ -1,0 +1,102 @@
+/* CIS 2336 CSS Demo File */
+
+/* Add your CSS here during class */
+
+ol{
+    color: blueviolet;
+}
+ul{
+  color: cadetblue;  
+}
+nav {
+    background-color: burlywood;
+}
+h1{
+    color: aqua;
+}
+
+#main_nav{
+    background-color: darkcyan;
+    padding: 15px;
+}
+#main_nav a {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+#main_nav a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+.highlight{
+    background-color: blanchedalmond;
+    font-weight:  bold;
+}
+#last{
+    background-color:aquamarine;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+caption{
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 10px;
+}
+th, td{
+    border: solid 1pt black;
+    padding: 10px;
+    text-align: left;
+
+}
+th{
+    background-color: darkgray;
+    color: white;
+}
+tr:nth-child(even){
+    background-color:lightgray;
+}
+tr:hover{
+    background-color: lightpink;
+}
+form{
+    max-width:fit-content;
+}
+fieldset{
+    border: solid 1pt black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    color: blueviolet;
+}
+label{
+    display:block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"], textarea, select{
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px grey;
+
+}
+
+button{
+    background-color: aliceblue;
+    color: black;
+       padding: 10px 18px;
+       border: 1px; 
+       margin-right: 10px;
+}
+button:hover{
+    background-color:brown;
+}
+button[type="submit"]{
+    background-color: blue;
+}
