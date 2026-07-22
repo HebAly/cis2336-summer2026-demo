@@ -271,7 +271,30 @@ for (let field of fields) {
 
     });
 
+// check that the password is at least 8 characters and contains at least one number and one letter.
 
+document.querySelector("#password").addEventListener("blur", function(e){
+   let passwrod= this.value;
+ //let passwrod= e.target.password.value;
+ let hasNumber=/\d/.test(passwrod);
+let hasLetter=/[a-zA-Z]/.test(passwrod);
+    let passwordError=document.querySelector("#error-msg-1");
+    passwordError.textContent="";
+    if(passwrod.length<8)
+    {
+         passwordError.textContent="Password must be at least 8 characters!";
+    }
+    else if(!hasNumber)//else if(hasNumber==false)
+    {
+         passwordError.textContent="Password must contain at least one number!";
+
+    }
+    else if(!hasLetter)
+    {
+         passwordError.textContent="Password must contain at least one letter!";
+
+    }
+});
 
 
 
